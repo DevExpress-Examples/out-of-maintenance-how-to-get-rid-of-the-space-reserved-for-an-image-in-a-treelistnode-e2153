@@ -1,4 +1,6 @@
-# How to get rid of the space reserved for an image in a TreeListNode
+# OBSOLETE: How to get rid of the space reserved for an image in a TreeListNode
 
+In version **18.1 and newer versions**, you can set the <a href="https://docs.devexpress.com/WindowsForms/DevExpress.XtraTreeList.TreeListOptionsView.RowImagesShowMode">TreeList.OptionsView.RowImagesShowMode</a> property to **InCell** to show images within cells without extra indents.
 
+**For earlier versions:**
 <p>When the <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraTreeListTreeList_SelectImageListtopic">TreeList.SelectImageList</a> or <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraTreeListTreeList_StateImageListtopic">TreeList.StateImageList</a> properties are assigned, each TreeListNode has an indent to draw these images, even if the <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraTreeListNodesTreeListNode_SelectImageIndextopic">TreeListNode.SelectImageIndex</a> or <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraTreeListNodesTreeListNode_StateImageIndextopic">TreeListNode.StateImageIndex</a> properties are set to -1.</p><p>In a situation when this behavior is undesirable, it's possible to create a custom TreeList descendant, and change it by overriding the TreeListViewInfo.CalcSelectImageBounds and TreeListViewInfo.CalcStateImageBounds methods.</p>
