@@ -1,3 +1,8 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128637612/18.1.3%2B)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2153)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # OBSOLETE: How to get rid of the space reserved for an image in a TreeListNode
 
 In version **18.1 and newer versions**, you can set the <a href="https://docs.devexpress.com/WindowsForms/DevExpress.XtraTreeList.TreeListOptionsView.RowImagesShowMode">TreeList.OptionsView.RowImagesShowMode</a> property to **InCell** to show images within cells without extra indents.
